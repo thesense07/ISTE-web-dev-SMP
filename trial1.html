@@ -1,9 +1,96 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <head>
+        <title>Login page</title>
+    </head>
+    <body>
+        <h2>Register yourself</h2>
+        <p>Your data is safe with us. We are collecting this data to know more about you. Knowing you will help us.</p>
+        <h2>Fill this form</h2>
+        <form action="#">
+            <label>
+                First Name:
+                <input type="text" name="first name" size="30" maxlength="100">
+            </label>
+            <br>
+            <br>
+            <label>
+                Last Name:
+                <input type="text" name="last name" size="30" maxlength="100">
+            </label>
+            <hr>
+            <label>
+                Email id:
+                <input type="email" name="email" size="30" maxlength="100">
+            </label>
+            <br>
+            <br>
+            <label>
+                Contact no.:
+                <input type="number" name="contact number" size="10" maxlength="12">
+            </label>
+            <br>
+            <br>
+            <label>
+                Password:
+                <input type="password" name="password" size="30" maxlenght="100">
+            </label>
+            <hr>
+            <label>
+                Your branch
+            </label>
+            <select name="branch">
+                <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+                <option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+                <option value="Chemical Engineering">Chemical Engineering</option>
+            </select>
+            <p>
+                Current year:
+                <label>
+                    <input type="radio" name="1st year" value="1">
+                    1st year
+                </label>
+                <label>
+                    <input type="radio" name="2nd year" value="2">
+                    2nd year
+                </label>
+                <label>
+                    <input type="radio" name="3rd year" value="3">
+                    3rd year
+                </label>
+                <label>
+                    <input type="radio" name="4th year" value="4">
+                    4th year
+                </label>
+            </p>
+            <fieldset>
+                <legend>Interests:</legend>
+                <input type="checkbox" id="Sports" name="Sports" value="Sports"//>
+                <label>Sports</label> 
+                <br> 
+                <input type="checkbox" id="Music" name="Music" value="Music"//>
+                <label>Music</label> 
+                <br> 
+                <input type="checkbox" id="Coding" name="Coding" value="Coding"//>
+                <label>Coding</label> 
+                <br> 
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+            </fieldset>
+            <p>
+                <label>Address :
+                    <br />
+                    <textarea name="address" cols="30" rows="15"></textarea>
+                </label>
+            </p>
 
-</body>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </body>
+
 </html>
